@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import type { Bookmark } from "../data/bookmarks";
-import { Button } from "./Button";
+import { Button } from "@/components/ui/button";
 
 interface Props {
   item: Bookmark;
@@ -28,17 +28,22 @@ export function Card({ item, onAnswer, current, total }: Props) {
           <p className="font-semibold text-gray-600">
             {item.context_translation}
           </p>
-          <p className="text-blue-600">Значения: {item.meanings.join(", ")}</p>
+          <p className="text-blue-600">Значення: {item.meanings.join(", ")}</p>
         </div>
       ) : (
-        <Button className="mb-10 opacity-90" onClick={() => setShow(true)}>
-          Показать перевод
+        <Button
+          variant="default"
+          className="mb-10 opacity-90"
+          onClick={() => setShow(true)}
+        >
+          Показати переклад
         </Button>
       )}
 
       <div className="flex justify-between gap-2">
         <Button
-          className="flex-1 bg-red-500/90 hover:border-red-400 hover:bg-red-600 focus-visible:outline-red-400"
+          variant="destructive"
+          className="flex-1"
           onClick={() => {
             onAnswer(false);
             setShow(false);
@@ -47,7 +52,8 @@ export function Card({ item, onAnswer, current, total }: Props) {
           Не знаю
         </Button>
         <Button
-          className="flex-1 bg-green-500/90 hover:border-green-400 hover:bg-green-600 focus-visible:outline-green-400"
+          variant="default"
+          className="flex-1 bg-green-500 hover:bg-green-600"
           onClick={() => {
             onAnswer(true);
             setShow(false);
@@ -58,7 +64,7 @@ export function Card({ item, onAnswer, current, total }: Props) {
       </div>
 
       <p className="mt-4 text-sm text-gray-400">
-        {current} из {total}
+        {current} з {total}
       </p>
     </motion.div>
   );

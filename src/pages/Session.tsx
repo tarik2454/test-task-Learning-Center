@@ -37,9 +37,7 @@ export default function Session() {
         total={total}
       />
 
-      <Link className="text-sm text-gray-400 !underline" to="/">
-        Вернуться на главную страницу
-      </Link>
+      <Link to="/">Повернутися на головну сторінку</Link>
     </div>
   );
 }

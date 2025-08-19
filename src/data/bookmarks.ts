@@ -15,8 +15,8 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "kid",
     transliteration: "kid",
-    context_translation: "Дети счастливы, что их мама играет с ними",
-    meanings: ["дети", "ребята"],
+    context_translation: "Діти щасливі, що їхня мама грає з ними",
+    meanings: ["діти", "хлопці"],
   },
   {
     value: "book",
@@ -24,7 +24,7 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "book",
     transliteration: "buk",
-    context_translation: "Она читает книгу в библиотеке",
+    context_translation: "Вона читає книгу в бібліотеці",
     meanings: ["книга"],
   },
   {
@@ -33,8 +33,8 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "happy",
     transliteration: "hæpi",
-    context_translation: "Он был счастлив после сдачи экзамена",
-    meanings: ["счастливый", "довольный"],
+    context_translation: "Він був щасливий після здачі іспиту",
+    meanings: ["щасливий", "задоволений"],
   },
   {
     value: "car",
@@ -42,8 +42,8 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "car",
     transliteration: "kar",
-    context_translation: "Мой отец водит новую машину",
-    meanings: ["машина", "автомобиль"],
+    context_translation: "Мій батько водить нову машину",
+    meanings: ["машина", "автомобіль"],
   },
   {
     value: "school",
@@ -51,7 +51,7 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "school",
     transliteration: "skuːl",
-    context_translation: "Дети ходят в школу каждое утро",
+    context_translation: "Діти ходять до школи щоранку",
     meanings: ["школа"],
   },
   {
@@ -60,7 +60,7 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "dog",
     transliteration: "dog",
-    context_translation: "Собака громко лает",
+    context_translation: "Собака голосно гавкає",
     meanings: ["собака", "пес"],
   },
   {
@@ -69,8 +69,8 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "house",
     transliteration: "haus",
-    context_translation: "Они живут в большом доме рядом с парком",
-    meanings: ["дом", "здание"],
+    context_translation: "Вони живуть у великому будинку поруч із парком",
+    meanings: ["будинок", "споруда"],
   },
   {
     value: "water",
@@ -78,7 +78,7 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "water",
     transliteration: "woːtər",
-    context_translation: "Пожалуйста, дай мне стакан воды",
+    context_translation: "Будь ласка, дай мені склянку води",
     meanings: ["вода"],
   },
   {
@@ -87,8 +87,8 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "work",
     transliteration: "wɜːrk",
-    context_translation: "У неё много работы сегодня",
-    meanings: ["работа"],
+    context_translation: "У неї сьогодні багато роботи",
+    meanings: ["робота"],
   },
   {
     value: "sun",
@@ -96,7 +96,7 @@ export const bookmarks: Bookmark[] = [
     language_code: "en",
     canonical_form: "sun",
     transliteration: "sʌn",
-    context_translation: "Солнце светит ярко",
-    meanings: ["солнце"],
+    context_translation: "Сонце світить яскраво",
+    meanings: ["сонце"],
   },
 ];

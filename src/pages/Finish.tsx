@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import { Result } from "../components/Result";
-import { Button } from "../components/Button";
+import { Result } from "@/components/Result";
+import { Button } from "@/components/ui/button";
 
 type FinishState = {
   correct: number;
@@ -18,7 +18,9 @@ export default function Finish() {
   if (!location.state) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <Button onClick={() => navigate("/")}>На старт</Button>
+        <Button variant="default" onClick={() => navigate("/")}>
+          На старт
+        </Button>
       </div>
     );
   }
